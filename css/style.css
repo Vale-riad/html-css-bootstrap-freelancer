@@ -29,13 +29,20 @@ header a{
     .hero{
         background-color: #1abc9c;
         color: #ffffff;
+        width:100%;
     }
     .hero img{
-        width:30%;
+        max-width: 230px;
+        
     }
     h1{
         border-bottom: 2px solid;
         color: #ffffff;
+    }
+    h2{
+        border-bottom: 2px solid;
+        color: #333333;
+
     }
     /* ----------
     header
