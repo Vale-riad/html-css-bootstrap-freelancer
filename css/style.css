@@ -44,6 +44,12 @@ header a{
         color: #333333;
 
     }
+    .about{
+        background-color: #1abc9c;
+    }
+    .about h2{
+        color:#ffffff;
+    }
     /* ----------
-    header
+    main
     --------- */
