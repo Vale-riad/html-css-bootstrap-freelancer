@@ -50,6 +50,10 @@ header a{
     .about h2{
         color:#ffffff;
     }
+    .container-text{
+        margin-left: -260px;
+    }
+   
     /* ----------
     main
     --------- */
