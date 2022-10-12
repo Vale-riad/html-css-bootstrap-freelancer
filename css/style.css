@@ -42,18 +42,60 @@ header a{
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
+    
     }
-    line::before{
+    .line::before{
         content: '';
-        border-color: white;
+        border-color: #ffffff;
+        background-color: #ffffff;
         width:100px;
         height: 3px;
         display: block;
+        margin:20px;
     }
+    .line::after{
+        content: '';
+        border-color: #ffffff;
+        background-color: #ffffff;
+        width:100px;
+        height: 3px;
+        display: block;
+        margin:20px;
+    }
+.hero h5{
+    margin-bottom: 40px;
+}
     h2{
-        border-bottom: 2px solid;
-        color: #333333;
+    color: #333333;
+    }
+    .line-black{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
 
+    }
+    .line-black::before{
+        content: '';
+        border-color: black;
+        background-color: black;
+        width:100px;
+        height: 3px;
+        display: block;
+        margin:20px;
+    }
+    .line-black::after{
+        content: '';
+        border-color: black;
+        background-color: black;
+        width:100px;
+        height: 3px;
+        display: block;
+        margin:20px;
+    }
+    .portfolio img{
+        max-width: 100%;
+        border-radius: .625rem;
     }
     .about{
         background-color: #1abc9c;
