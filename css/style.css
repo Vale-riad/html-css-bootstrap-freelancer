@@ -35,8 +35,20 @@ header a{
         
     }
     h1{
-        border-bottom: 2px solid;
         color: #ffffff;
+    }
+    .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    }
+    line::before{
+        content: '';
+        border-color: white;
+        width:100px;
+        height: 3px;
+        display: block;
     }
     h2{
         border-bottom: 2px solid;
