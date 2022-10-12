@@ -93,16 +93,27 @@ header a{
         display: block;
         margin:20px;
     }
-    
     .portfolio img{
-        min-width: 100%;
+       
         border-radius: .625rem;
     }
     .about{
         background-color: #1abc9c;
+        color: #ffffff;
+    }
+    .about i{
+        color: #ffffff;
     }
     .about h2{
         color:#ffffff;
+    }
+    .btn-download{
+        background-color: #1abc9c;
+        border-color: #ffffff;
+        color: #ffffff;
+        border-radius:  .4375rem;
+        
+        border: 1px solid;
     }
     .container-text{
         margin-left: -260px;
