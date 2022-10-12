@@ -93,8 +93,9 @@ header a{
         display: block;
         margin:20px;
     }
+    
     .portfolio img{
-        max-width: 100%;
+        min-width: 100%;
         border-radius: .625rem;
     }
     .about{
