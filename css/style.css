@@ -115,8 +115,8 @@ header a{
         
         border: 1px solid;
     }
-    .container-text{
-        margin-left: -260px;
+    .ms-form-floating{
+        border: none;
     }
      /* ----------
     main
