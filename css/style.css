@@ -128,7 +128,19 @@ header a{
         border-radius: .4375rem;
         margin-right: auto;
     }
-   
+   .circle{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid;
+    
+   }
+   footer a{
+    color:#1abc9c;
+    text-decoration: none;
+   }
      /* ----------
     main
     --------- */
