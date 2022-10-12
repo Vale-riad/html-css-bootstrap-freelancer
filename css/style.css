@@ -112,8 +112,8 @@ header a{
         border-color: #ffffff;
         color: #ffffff;
         border-radius:  .4375rem;
-        
         border: 1px solid;
+        text-align: center;
     }
      .contact-me .form-control{
         border: none;
@@ -127,6 +127,8 @@ header a{
         color:#ffffff;
         border-radius: .4375rem;
         margin-right: auto;
+        padding: 5px 10px 5px 10px;
+        text-align: center;
     }
    .circle{
     height: 30px;
@@ -135,6 +137,7 @@ header a{
     text-align: center;
     line-height: 30px;
     border: 1px solid;
+    margin: 0px 5px;
     
    }
    footer a{
