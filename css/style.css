@@ -115,9 +115,20 @@ header a{
         
         border: 1px solid;
     }
-    .ms-form-floating{
+     .contact-me .form-control{
         border: none;
+        border-bottom: 1px solid;
+        border-radius: 0;
+        color: lightgray;
     }
+    .btn-send{
+        background-color: #1abc9c;
+        border:none;
+        color:#ffffff;
+        border-radius: .4375rem;
+        margin-right: auto;
+    }
+   
      /* ----------
     main
     --------- */
