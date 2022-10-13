@@ -48,7 +48,8 @@ header a{
         content: '';
         border-color: #ffffff;
         background-color: #ffffff;
-        width:100px;
+        max-width:150px;
+        width:30%;
         height: 3px;
         display: block;
         margin:20px;
@@ -57,7 +58,8 @@ header a{
         content: '';
         border-color: #ffffff;
         background-color: #ffffff;
-        width:100px;
+        max-width:150px;
+        width:30%;
         height: 3px;
         display: block;
         margin:20px;
@@ -69,7 +71,7 @@ header a{
     color: #333333;
     }
     .line-black{
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
@@ -79,7 +81,8 @@ header a{
         content: '';
         border-color: black;
         background-color: black;
-        width:100px;
+        max-width:150px;
+        width:30%;
         height: 3px;
         display: block;
         margin:20px;
@@ -88,7 +91,8 @@ header a{
         content: '';
         border-color: black;
         background-color: black;
-        width:100px;
+        max-width:150px;
+        width:30%;
         height: 3px;
         display: block;
         margin:20px;
@@ -140,6 +144,9 @@ header a{
     border: 1px solid;
     margin: 0px 5px;
     
+   }
+   .circle a{
+    color: #ffffff;
    }
    footer a{
     color:#1abc9c;
