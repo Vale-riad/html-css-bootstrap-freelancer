@@ -120,6 +120,7 @@ header a{
         border-bottom: 1px solid;
         border-radius: 0;
         color: lightgray;
+        box-shadow:none;
     }
     .btn-send{
         background-color: #1abc9c;
